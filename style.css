@@ -1,0 +1,33 @@
+*{
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.center-text{
+    text-align: center;
+}
+
+/* Contenitore */
+
+.container{
+    margin: 0 auto;
+    background-color: white;
+    max-width: 1200px;
+}
+
+/* title */
+
+header{
+    padding: 40px;
+}
+
+h1{
+    color: #E53170;
+    font-weight: bold;
+}
