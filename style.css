@@ -13,6 +13,16 @@ body{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+    color: #1B6AA1;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+
 /* Contenitore */
 
 .container{
@@ -23,11 +33,41 @@ body{
 
 /* title */
 
-header{
-    padding: 40px;
+.main-header{
+    margin-bottom: 50px;
+    padding-top: 50px ;
 }
 
 h1{
     color: #E53170;
     font-weight: bold;
+}
+
+/* Main */
+
+.block{
+    max-width: calc(100% / 3);
+    height: 100px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+} 
+
+.label{
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding: 10px 50px 10px 10px;
+}
+
+.clear-fix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.float-box{
+    float: left;
 }
