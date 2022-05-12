@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: white;
 }
 
 .center-text{
@@ -22,20 +22,22 @@ section{
     margin-bottom: 50px;
 }
 
+address{
+    font-style: normal;
+}
+
 
 /* Contenitore */
 
 .container{
     margin: 0 auto;
-    background-color: white;
-    max-width: 1200px;
+    max-width: 1300px;
 }
 
 /* title */
 
 .main-header{
-    margin-bottom: 50px;
-    padding-top: 50px ;
+    margin: 50px 0;
 }
 
 h1{
@@ -46,8 +48,9 @@ h1{
 /* Main */
 
 .block{
-    max-width: calc(100% / 3);
+    width: calc(100% /3);
     height: 100px;
+    margin-bottom: 10px;
 }
 
 img{
@@ -70,4 +73,9 @@ img{
 
 .float-box{
     float: left;
+}
+
+.second-container{
+    max-width: 1100px;
+    margin: 0 auto;
 }
